@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(133, 162, 133);
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header ul {
+    padding: 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.container {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 120vh;
+    background-image: url("backgroundricebwl.jpeg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.isian-h1 {
+    padding: 70px;
+    font-size: xx-large;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+
+}
+
+.isian-h1 h1,
+h2,
+h5 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.hero h1 {
+    font-size: xx-large;
+}
+
+.about {
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 50px;
+    padding: 100px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    background-color: rgb(88, 101, 88);
+
+}
+
+.menu {
+    display: flex;
+    height: 100vh;
+}
+
+.about img {
+    height: 400px;
+}
+
+.about p {
+    font-size: x-large;
+    padding: 10px;
+}
+
+.button button {
+    margin: 30px;
+    height: 50px;
+    width: 150px;
+}
+
+.isian-menu {
+        font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    float: right;
+    padding: 40px;
+    width: 100vh;
+    background-color: rgb(88, 101, 88);
+}
+
+.isian-keranjang {
+        font-family: "Anton", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-style: normal;
+    width: 100vh;
+    background-color: rgb(66, 75, 66);
+    padding: 50px;
+    overflow-y: auto;
+
+}
+
+.isian-keranjang h3 {
+    padding: 20px;
+}
+
+.isian-menu button {
+    height: 50px;
+    width: 250px;
+}
+
+.about p {
+    padding: 20px;
+}
+iframe{
+    width: 200vh;
+
+}
+.lokasi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sosial-media{
+    background-color: rgb(133, 162, 133);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.social-media ul{
+        display: flex;
+}
+.social-media li{
+    list-style: none ;
+}

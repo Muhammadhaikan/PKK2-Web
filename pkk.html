@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiceBowl-Sobat</title>
+    <link rel="stylesheet" href="pkk.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="#awal">Menu</a></li>
+                <li><a href="#tentangkami">Tentang Kami</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
+                <li><a href="#sosial-media">Sosial Media</a></li>
+            </ul>
+        </div>
+    </header>
+    <hr style="background-color: black; height: 2px; border: none;">
+    <div class="container" id="awal">
+        <div class="isian-h1" style="text-align: center; color: white;">
+            <h1 style="padding-top: 50px;">Selamat Datang DiWebsite</h1>
+            <h2>RiceBowl Sobat</h2>
+            <h5>Rasa mantap,Harga sahabat!</h5>
+        </div>
+        <div class="hero">
+            <img src="logo.ricebowl.jpg" alt="" style="height: 350px;">
+        </div>
+        <div class="button" style="display: flex; justify-content: center;">
+            <button style="border: 2px solid; background: none; border-radius: 10px;">
+                               <a href="#isian-keranjang" style="color: white;">
+                                   <i class="bi bi-cart" style="font-size: x-large;">
+                                </i>
+                               </a>
+     
+            </button>
+        </div>
+    </div>
+    <div class="about" id="tentangkami">
+        <img src="RICEBOWL MENTAI.jpg" alt="">
+        <p style="text-align: justify;">Rice bowl adalah hidangan praktis yang terdiri dari nasi putih hangat sebagai
+            dasar, kemudian dilengkapi dengan berbagai pilihan lauk seperti ayam katsu, beef teriyaki, ayam sambal, dan
+            lain-lain, yang disusun langsung di atas nasi dalam satu wadah mangkuk. Setiap varian biasanya disajikan
+            dengan tambahan sayuran segar seperti kol, wortel, atau jagung manis, serta disiram dengan saus khas yang
+            memperkaya cita rasa, mulai dari saus manis gurih hingga pedas menggoda. Selain praktis dan mengenyangkan,
+            rice bowl juga populer karena harganya yang terjangkau dan cocok dinikmati kapan saja, baik saat makan siang
+            maupun malam. Hidangan ini sangat digemari karena penyajiannya yang cepat, mudah dibawa, dan menawarkan
+            kombinasi rasa yang lezat serta bergizi dalam satu sajian sederhana</p>
+    </div>
+    <div class="lokasi" id="lokasi">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.0210075295117!2d107.49116897499178!3d-6.391290693599203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjMnMjguNyJTIDEwN8KwMjknMzcuNSJF!5e0!3m2!1sen!2sid!4v1748603352407!5m2!1sen!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade""
+            width=" 600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"> <a
+                href="https://www.google.com/maps/place/Perum+ekamas/@-6.3907619,107.4919993,489m/data=!3m1!1e3!4m10!1m2!2m1!1sekamas!3m6!1s0x2e696da9f3f606e9:0x22cdcd86fd4f242d!8m2!3d-6.3907619!4d107.4943811!15sCgZla2FtYXOSAQ9ob3VzaW5nX2NvbXBsZXiqAS8QATIfEAEiG07WzBYqwDpyxd2Q1WQRxUh7lkxmN857r-4SKDIKEAIiBmVrYW1hc-ABAA!16s%2Fg%2F11l2r2203_?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></a></iframe>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="isian-menu">
+            <div class="menu-img" style="display: flex; justify-content: center;">
+                <img src="gambar-ricebowl-removebg-preview.png" alt="" style="height: 350px;">
+            </div>
+            <h4 style="text-align: center; font-size: x-large ; padding: 30px;">RiceBowl Chicken Katsu
+                <h2 style="text-align: center;">Rp.12.000</h2>
+            </h4>
+            <div class="input" style="display: flex; justify-content: center; margin: 20px;">
+                <input type="number" id="jumlah" name="jumlah" min="1" max="50" step="1" style="height: 30px;">
+            </div>
+            <div class="button" style="display: flex; justify-content: center; width: 100%;">
+                <button onclick="pemesanan()">Masukan Ke Keranjang!</button>
+            </div>
+            <h2 style="text-align: center;">Note : Pembayaran hanya via COD!</h2>
+
+        </div>
+        <div class="isian-keranjang" id="isian-keranjang">
+            <h1 style="text-align: center;">Keranjang</h1>
+            <h3 style="text-align: center;" id="h3keranjang">Isi Keranjang Kosong</h3>
+        </div>
+
+    </div>
+    <footer>
+        <div class="sosial-media" id="sosial-media">
+            <a href="https://www.facebook.com/profile.php?id=61575810771430"><img src="facebookpng.png" alt=""
+                    style="height: 50px;"></a>
+            <a href="https://www.instagram.com/rice.bowlsobat?igsh=YWFtMDNkcTZpd2tj"><img src="logoigpng.webp" alt=""
+                    style="height: 80px;"></a>
+            <a href="https://id.shp.ee/9ERRtys"><img src="SHOOPEPNG.png" alt="" style="height: 50px;"></a>
+            <a href="https://www.tiktok.com/@ricebowlsobat?_t=ZS-8wCR5uYWyLh&_r=1"><img src="tiktoklogopng.webp" alt=""
+                    style="height: 80px;"></a>
+
+        </div>
+    </footer>
+    <script src="pkk.js"></script>
+</body>
+
+</html>
